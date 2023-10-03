@@ -1,0 +1,367 @@
+body {
+  font-family: "Rubik", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 350%;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 250%;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 100%;
+  font-weight: 400;
+}
+
+p {
+  font-size: 100%;
+  font-weight: 100;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+/* -------------- HEADER --------------*/
+
+.head {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(253, 253, 253);
+  opacity: 0.95;
+}
+
+.logga {
+  display: flex;
+  height: 50px;
+  margin-left: 50px;
+}
+
+.navigation {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+}
+
+.nav {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-ansok-container {
+  display: flex;
+  padding: 0px;
+}
+
+.btn-ansok {
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 40px;
+  border: none;
+  background-color: #4c64ff;
+  margin-right: 50px;
+  font-size: 15px;
+}
+
+.btn-ansok:hover {
+  background-color: white;
+  color: #4c64ff;
+  transition-duration: 0.2s;
+  border: solid #4c64ff;
+}
+
+.om-oss,
+.aktuellt,
+.kontakt {
+  display: flex;
+  margin-right: 30px;
+  height: 40px;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* -------------- HERO --------------*/
+
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  color: white;
+  background-image: url("charlesdeluvio-Lks7vei-eAg-unsplash.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+  line-height: 4em;
+}
+
+.section-sub-heading {
+  font-size: 15px;
+  margin-bottom: 30px;
+  line-height: 1.5em;
+}
+
+.btn1 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: white;
+  width: 150px;
+  height: 50px;
+  border-radius: 40px;
+  border: none;
+  background-color: #4c64ff;
+  font-size: 15px;
+}
+
+.btn1:hover {
+  background-color: white;
+  color: #4c64ff;
+  transition-duration: 0.2s;
+}
+
+/* -------------- INFO SECTION --------------*/
+
+.info-section {
+  padding: 150px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(244, 244, 244);
+}
+
+.info-image-container {
+  padding: 0px 50px 0px 0px;
+  display: flex;
+  width: 50%;
+}
+
+.info-image {
+  width: 100%;
+}
+
+.info-content-container {
+  padding: 0px 50px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-lar-kanna,
+.info-chas-title1,
+.info-content-text {
+  margin: 0;
+  padding: 0;
+}
+
+.info-lar-kanna {
+  margin-bottom: 20px;
+}
+
+.info-chas-title1 {
+  margin-bottom: 50px;
+}
+
+.info-content-text {
+  margin-bottom: 30px;
+  line-height: 1.7em;
+}
+
+.info-buttons {
+  margin-top: 30px;
+}
+
+.btn-ansok-direkt {
+  background-color: rgb(55, 55, 55);
+  color: white;
+  border-color: rgb(55, 55, 55);
+  border-style: solid;
+  border-radius: 40px;
+  height: 50px;
+  width: 150px;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.btn-ansok-direkt:hover {
+  background-color: white;
+  color: rgb(55, 55, 55);
+  transition-duration: 0.2s;
+}
+
+.btn-las-mer-om-oss {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(55, 55, 55);
+  border-style: solid;
+  border-radius: 40px;
+  height: 50px;
+  width: 150px;
+  font-size: 15px;
+}
+
+.btn-las-mer-om-oss:hover {
+  background-color: rgb(55, 55, 55);
+  color: white;
+  transition-duration: 0.2s;
+}
+
+/* TESTIMONIAL --------------*/
+
+.testimonial {
+  padding: 150px;
+  height: 400px;
+}
+
+.testimonial-title-container {
+  margin-bottom: 100px;
+}
+
+.testimonial-title {
+  text-align: center;
+}
+
+.testimonial-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.testimonial-img-container1,
+.testimonial-img-container2,
+.testimonial-img-container3 {
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.face1-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+
+.face1-quote {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.face2-quote {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.face3-quote {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.face2-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+
+.face3-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+
+/* CTA --------------*/
+
+.cta {
+  padding: 150px;
+  background-color: #4c64ff;
+  display: flex;
+  flex-direction: row;
+}
+
+.cta-content-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.cta-image-container {
+  width: 50%;
+}
+
+.img-code {
+  width: 100%;
+  height: 90%;
+  border-radius: 20px;
+}
+
+.btn-hur-ansoker-jag {
+  margin-top: 60px;
+  color: #4c64ff;
+  width: 200px;
+  height: 50px;
+  border-style: solid;
+  border-radius: 40px;
+  border-color: white;
+  background-color: white;
+  font-size: 15px;
+}
+
+.btn-hur-ansoker-jag:hover {
+  background-color: #4c64ff;
+  color: white;
+  transition-duration: 0.2s;
+}
+
+/* FOOTER --------------*/
+
+.footer {
+  padding: 100px 0px 100px 150px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(244, 244, 244);
+}
+
+.footer-info {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-kontakt-container {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.footer-logga-container {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chas-footer-logga {
+  width: 100%;
+  height: 100%;
+}
